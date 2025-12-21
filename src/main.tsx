@@ -1,13 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import { defaultTheme } from './designs/theme.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./widgets/App.tsx";
+import { store } from "./states/index.ts";
+import { Provider } from "react-redux";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className={defaultTheme}>
+    <Provider store={store}>
       <App />
-    </div>
-  </StrictMode>,
-)
+    </Provider>
+  </StrictMode>
+);

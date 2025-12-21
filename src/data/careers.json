@@ -1,0 +1,57 @@
+[
+  {
+    "id": "career-001",
+    "projectName": "ECサイトリニューアルプロジェクト",
+    "from": "2023/04",
+    "to": "2024/03",
+    "overview": "大規模ECサイトのフロントエンド全面刷新とパフォーマンス改善",
+    "role": "frontend",
+    "teamSize": 8,
+    "techStack": ["React", "TypeScript", "Next.js", "PostgreSQL"],
+    "description": "レガシーなjQueryベースのフロントエンドをReact+Next.jsで完全リニューアル。Core Web Vitalsのスコアを平均40点から90点以上に改善し、コンバージョン率を15%向上させました。Atomic Designを採用した再利用可能なコンポーネントライブラリを構築し、開発効率を大幅に向上させました。"
+  },
+  {
+    "id": "career-002",
+    "projectName": "社内業務管理システム開発",
+    "from": "2022/06",
+    "to": "2023/03",
+    "overview": "フルスタックエンジニアとして社内業務システムをゼロから構築",
+    "role": "fullstack",
+    "teamSize": 5,
+    "techStack": ["TypeScript", "React", "Node.js", "NestJS", "PostgreSQL", "Docker"],
+    "description": "バックエンドにNestJSを採用し、型安全なREST APIを設計・実装。フロントエンドはReactでSPAを構築し、リアルタイム通知機能やファイルアップロード機能などを実装しました。Dockerを使った開発環境の整備とCI/CDパイプラインの構築も担当し、チーム全体の開発体験を向上させました。"
+  },
+  {
+    "id": "career-003",
+    "projectName": "モバイルアプリ開発プロジェクト",
+    "from": "2021/09",
+    "to": "2022/05",
+    "overview": "クロスプラットフォームモバイルアプリの新規開発",
+    "role": "mobile",
+    "teamSize": 6,
+    "techStack": ["TypeScript", "React", "React Native", "MongoDB", "AWS"],
+    "description": "React Nativeを使用してiOS/Android両対応のモバイルアプリを開発。ネイティブモジュールとの連携やプッシュ通知の実装、オフライン対応などを担当。App StoreとGoogle Play Storeでの公開プロセスも経験し、リリース後の運用・改善も継続的に実施しました。"
+  },
+  {
+    "id": "career-004",
+    "projectName": "マイクロサービス基盤構築",
+    "from": "2020/10",
+    "to": "2021/08",
+    "overview": "インフラエンジニアとしてKubernetes基盤の構築と運用",
+    "role": "infrastructure",
+    "teamSize": 4,
+    "techStack": ["Docker", "Kubernetes", "AWS", "Python", "MongoDB"],
+    "description": "モノリシックなアーキテクチャをマイクロサービス化するプロジェクトでインフラを担当。EKS（Elastic Kubernetes Service）を使用したKubernetes基盤を構築し、CI/CDパイプラインをGitHub Actionsで自動化。監視・ログ基盤の整備やセキュリティ対策も実施し、安定稼働を実現しました。"
+  },
+  {
+    "id": "career-005",
+    "projectName": "新規Webサービス開発",
+    "from": "2024/04",
+    "to": "現在",
+    "overview": "スタートアップ企業での新規サービス立ち上げをリード",
+    "role": "fullstack",
+    "teamSize": 3,
+    "techStack": ["TypeScript", "Next.js", "NestJS", "PostgreSQL", "AWS", "Docker"],
+    "description": "技術選定から設計、実装までを一貫して担当。Next.jsのApp RouterとServer Componentsを活用したモダンなフロントエンド開発と、NestJSによる堅牢なバックエンドAPI設計を実施。少人数チームでの開発効率を最大化するため、型安全性とDXを重視した技術スタックを採用しています。"
+  }
+]
