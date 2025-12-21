@@ -1,24 +1,12 @@
 import clsx from "clsx";
 import * as styles from "./index.css";
 
-type TextDecoration =
-  | "bold"
-  | "italic"
-  | "underline"
-  | "strikethrough"
-  | "none";
-type TextColor =
-  | "primary"
-  | "secondary"
-  | "accent"
-  | "muted"
-  | "error"
-  | "success";
+type TextColor = keyof typeof styles.color;
 type TextSize = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
 
 export interface InlineTypographyProps {
   children: React.ReactNode;
-  decoration?: TextDecoration;
+  bold?: boolean;
   color?: TextColor;
   size?: TextSize;
   as?: "span" | "em" | "strong" | "small" | "mark" | "code";
@@ -27,8 +15,8 @@ export interface InlineTypographyProps {
 
 export const InlineTypography = ({
   children,
-  decoration = "none",
-  color = "primary",
+  bold = false,
+  color = "gray0",
   size = "md",
   as: Component = "span",
   className,
@@ -37,7 +25,7 @@ export const InlineTypography = ({
     <Component
       className={clsx(
         styles.base,
-        styles.decoration[decoration],
+        bold && styles.bold,
         styles.color[color],
         styles.size[size],
         className

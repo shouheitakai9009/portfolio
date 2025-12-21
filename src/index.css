@@ -3,6 +3,7 @@
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  letter-spacing: 0.04em;
 }
 
 html,
@@ -11,4 +12,5 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background: hsla(270 100%, 36%, 1);
 }

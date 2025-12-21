@@ -1,9 +1,14 @@
-import clsx from "clsx";
-import { defaultTheme } from "../designs/theme.css";
-import { wrapper } from "./App.css";
+import { Layout } from "./Layout";
+import { Navigation } from "./Navigation";
 
 function App() {
-  return <main className={clsx(wrapper, defaultTheme)}></main>;
+  return (
+    <Layout
+      navigation={<Navigation />}
+      header={<div>Header</div>}
+      content={<div>Content</div>}
+    />
+  );
 }
 
 export default App;

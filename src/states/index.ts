@@ -1,6 +1,10 @@
 import { configureStore, bindActionCreators } from "@reduxjs/toolkit";
 import appSlice, { actions } from "./slice";
-import { useDispatch, useSelector as useReduxSelector } from "react-redux";
+import {
+  useDispatch,
+  useSelector as useReduxSelector,
+  type TypedUseSelectorHook,
+} from "react-redux";
 
 export const store = configureStore({
   reducer: {
@@ -10,8 +14,8 @@ export const store = configureStore({
 
 export type RootState = ReturnType<typeof store.getState>;
 
-export const useSelector: typeof useReduxSelector<RootState["app"]> =
-  useReduxSelector;
+// 型安全なuseSelectorフック
+export const useSelector: TypedUseSelectorHook<RootState> = useReduxSelector;
 
 export const useActions = () => {
   const dispatch = useDispatch();
