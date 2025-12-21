@@ -1,22 +1,8 @@
-import { useState } from "react";
+import { Provider } from "react-redux";
+import { store } from "./states";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div className="App">
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      <p>
-        Edit <code>src/App.tsx</code> and save to test HMR
-      </p>
-      <p>Click on the Vite and React logos to learn more</p>
-    </div>
-  );
+  return <Provider store={store}>test</Provider>;
 }
 
 export default App;
