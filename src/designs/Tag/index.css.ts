@@ -48,18 +48,10 @@ export const size = styleVariants({
   },
   md: {
     fontSize: vars.fontSize.sm,
-    paddingLeft: vars.spaces.sm,
-    paddingRight: vars.spaces.sm,
-    paddingTop: vars.spaces.xs,
-    paddingBottom: vars.spaces.xs,
-    height: "24px",
+    padding: `${vars.spaces.xs} ${vars.spaces.md}`,
   },
   lg: {
     fontSize: vars.fontSize.md,
-    paddingLeft: vars.spaces.md,
-    paddingRight: vars.spaces.md,
-    paddingTop: vars.spaces.sm,
-    paddingBottom: vars.spaces.sm,
-    height: "32px",
+    padding: `${vars.spaces.xs} ${vars.spaces.lg}`,
   },
 });
