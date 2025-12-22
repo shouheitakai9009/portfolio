@@ -3,7 +3,7 @@ import type { TechStack } from "./techStack";
 
 // 経歴データの型
 export interface Career {
-  id: string;
+  id: number;
   projectName: string;
   from: string;
   to: string | "現在";

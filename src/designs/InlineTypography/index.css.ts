@@ -26,6 +26,15 @@ export const decoration = styleVariants({
 // カラーバリアント（テーマから参照）
 export const color = styleVariants({
   gray0: { color: vars.color.gray[0] },
+  gray50: { color: vars.color.gray[50] },
+  gray100: { color: vars.color.gray[100] },
+  gray200: { color: vars.color.gray[200] },
+  gray300: { color: vars.color.gray[300] },
+  gray400: { color: vars.color.gray[400] },
+  gray500: { color: vars.color.gray[500] },
+  gray600: { color: vars.color.gray[600] },
+  gray700: { color: vars.color.gray[700] },
+  gray800: { color: vars.color.gray[800] },
   gray900: { color: vars.color.gray[900] },
 });
 

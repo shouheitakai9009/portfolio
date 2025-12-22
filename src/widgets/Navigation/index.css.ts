@@ -2,7 +2,7 @@ import { style } from "@vanilla-extract/css";
 import { vars } from "../../designs/theme.css";
 
 export const wrapper = style({
-  padding: vars.spaces.xl,
+  padding: `${vars.spaces.xl} 0`,
 });
 
 export const header = style({
@@ -11,4 +11,17 @@ export const header = style({
   justifyContent: "center",
   alignItems: "center",
   gap: vars.spaces.md,
+  paddingBottom: vars.spaces.xl,
+  borderBottom: `1px solid ${vars.color.gray[600]}`,
+});
+
+export const career = style({});
+
+export const careerTitle = style({
+  padding: `${vars.spaces.md} ${vars.spaces.xl}`,
+});
+
+export const careerList = style({
+  margin: 0,
+  padding: 0,
 });

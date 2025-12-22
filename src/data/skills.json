@@ -1,90 +1,90 @@
 [
   {
-    "id": "skill-001",
+    "id": 1,
     "name": "TypeScript",
     "yearsOfExperience": 4,
     "comment": "型安全な開発を最も重視しており、複雑な型定義やGenericsを駆使した堅牢なコード設計を得意としています"
   },
   {
-    "id": "skill-002",
+    "id": 2,
     "name": "React",
     "yearsOfExperience": 5,
     "comment": "Hooks、Context API、Server Componentsなど最新機能を活用した効率的なコンポーネント設計が可能です"
   },
   {
-    "id": "skill-003",
+    "id": 3,
     "name": "Next.js",
     "yearsOfExperience": 3,
     "comment": "App RouterやServer Actionsを使ったモダンなフルスタック開発が得意です。SEO対策やパフォーマンス最適化も経験豊富です"
   },
   {
-    "id": "skill-004",
+    "id": 4,
     "name": "Node.js",
     "yearsOfExperience": 4,
     "comment": "バックエンドAPIの設計・実装から、CLIツールの開発まで幅広く対応できます"
   },
   {
-    "id": "skill-005",
+    "id": 5,
     "name": "NestJS",
     "yearsOfExperience": 2,
     "comment": "エンタープライズグレードのバックエンド開発に最適なフレームワーク。DI、デコレータ、モジュール設計を活用した保守性の高いコードを書けます"
   },
   {
-    "id": "skill-006",
+    "id": 6,
     "name": "PostgreSQL",
     "yearsOfExperience": 3,
     "comment": "複雑なクエリ最適化やインデックス設計、トランザクション管理などの実務経験があります"
   },
   {
-    "id": "skill-007",
+    "id": 7,
     "name": "Docker",
     "yearsOfExperience": 3,
     "comment": "開発環境の構築からマルチステージビルド、docker-composeを使った複数コンテナ管理まで対応可能です"
   },
   {
-    "id": "skill-008",
+    "id": 8,
     "name": "AWS",
     "yearsOfExperience": 2,
     "comment": "EC2、ECS、S3、RDS、CloudFrontなどの主要サービスを使ったインフラ構築の経験があります"
   },
   {
-    "id": "skill-009",
+    "id": 9,
     "name": "Python",
     "yearsOfExperience": 3,
     "comment": "データ処理スクリプトやバックエンドAPI開発で使用。DjangoとFastAPIの両方に精通しています"
   },
   {
-    "id": "skill-010",
+    "id": 10,
     "name": "MongoDB",
     "yearsOfExperience": 2,
     "comment": "NoSQLデータベースの特性を理解し、スキーマ設計やアグリゲーションパイプラインを活用した効率的なデータ操作が可能です"
   },
   {
-    "id": "skill-011",
+    "id": 11,
     "name": "Kubernetes",
     "yearsOfExperience": 1,
     "comment": "EKSを使ったマイクロサービス基盤の構築・運用経験があります。現在も学習を継続中です"
   },
   {
-    "id": "skill-012",
+    "id": 12,
     "name": "Vue",
     "yearsOfExperience": 2,
     "comment": "Composition APIやVuexを使った中規模アプリケーション開発の経験があります"
   },
   {
-    "id": "skill-013",
+    "id": 13,
     "name": "Express",
     "yearsOfExperience": 3,
     "comment": "Node.jsの代表的なフレームワーク。RESTful APIやミドルウェアの設計に慣れています"
   },
   {
-    "id": "skill-014",
+    "id": 14,
     "name": "Redis",
     "yearsOfExperience": 2,
     "comment": "キャッシュ戦略やセッション管理、Pub/Subパターンの実装経験があります"
   },
   {
-    "id": "skill-015",
+    "id": 15,
     "name": "GitHub Actions",
     "yearsOfExperience": 2,
     "comment": "CI/CDパイプラインの構築から、自動テスト、デプロイ自動化まで一通り経験しています"

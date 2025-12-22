@@ -5,6 +5,15 @@ export const vars = createThemeContract({
   color: {
     gray: {
       0: null,
+      50: null,
+      100: null,
+      200: null,
+      300: null,
+      400: null,
+      500: null,
+      600: null,
+      700: null,
+      800: null,
       900: null,
     },
   },
@@ -19,6 +28,7 @@ export const vars = createThemeContract({
   background: {
     primary: null,
     default: null,
+    lightest: null,
   },
   lineHeight: {
     xs: null,
@@ -49,12 +59,22 @@ export const defaultTheme = createTheme(vars, {
   color: {
     gray: {
       0: "hsla(0, 0%, 100%, 1)",
+      50: "hsla(0, 0%, 90%, 1)",
+      100: "hsla(0, 0%, 85%, 1)",
+      200: "hsla(0, 0%, 80%, 1)",
+      300: "hsla(0, 0%, 60%, 1)",
+      400: "hsla(0, 0%, 50%, 1)",
+      500: "hsla(0, 0%, 40%, 1)",
+      600: "hsla(0, 0%, 40%, 1)",
+      700: "hsla(0, 0%, 20%, 1)",
+      800: "hsla(0, 0%, 10%, 1)",
       900: "hsla(0, 0%, 0%, 1)",
     },
   },
   background: {
     primary: "hsla(45, 100%, 60%, 1)",
     default: "hsla(0, 0%, 100%, 1)",
+    lightest: "hsla(0, 0%, 95%, 1)",
   },
   fontSize: {
     xs: "0.75rem",

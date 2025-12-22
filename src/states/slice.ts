@@ -1,15 +1,12 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import { initialState } from "./state";
 
 export const slice = createSlice({
   name: "app",
   initialState,
   reducers: {
-    increment: (state) => {
-      state.count += 1;
-    },
-    decrement: (state) => {
-      state.count -= 1;
+    selectCareer(state, { payload }: PayloadAction<number | null>) {
+      state.selctedCareerId = payload;
     },
   },
 });

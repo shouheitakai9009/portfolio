@@ -1,15 +1,16 @@
 import clsx from "clsx";
 import * as styles from "./index.css";
+import { motion, type HTMLMotionProps } from "framer-motion";
 
 type TextColor = keyof typeof styles.color;
 type TextSize = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
 
-export interface InlineTypographyProps {
+export interface InlineTypographyProps
+  extends Omit<HTMLMotionProps<"span">, "color"> {
   children: React.ReactNode;
   bold?: boolean;
   color?: TextColor;
   size?: TextSize;
-  as?: "span" | "em" | "strong" | "small" | "mark" | "code";
   className?: string;
 }
 
@@ -18,11 +19,21 @@ export const InlineTypography = ({
   bold = false,
   color = "gray0",
   size = "md",
-  as: Component = "span",
   className,
+  variants,
+  initial,
+  animate,
+  whileHover,
+  whileTap,
+  whileFocus,
+  whileDrag,
+  whileInView,
+  exit,
+  transition,
+  ...restProps
 }: InlineTypographyProps) => {
   return (
-    <Component
+    <motion.span
       className={clsx(
         styles.base,
         bold && styles.bold,
@@ -30,8 +41,19 @@ export const InlineTypography = ({
         styles.size[size],
         className
       )}
+      variants={variants}
+      initial={initial}
+      animate={animate}
+      whileHover={whileHover}
+      whileTap={whileTap}
+      whileFocus={whileFocus}
+      whileDrag={whileDrag}
+      whileInView={whileInView}
+      exit={exit}
+      transition={transition}
+      {...restProps}
     >
       {children}
-    </Component>
+    </motion.span>
   );
 };
