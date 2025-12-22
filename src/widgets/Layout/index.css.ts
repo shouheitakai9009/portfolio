@@ -15,5 +15,5 @@ export const main = style({
   borderTopLeftRadius: vars.radius["2xl"],
   borderBottomLeftRadius: vars.radius["2xl"],
   margin: `${vars.spaces.lg} 0`,
-  padding: vars.spaces.xl,
+  padding: vars.spaces["2xl"],
 });

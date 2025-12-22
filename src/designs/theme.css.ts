@@ -137,6 +137,7 @@ export const vars = createThemeContract({
     md: null,
     lg: null,
     xl: null,
+    "2xl": null,
   },
 });
 
@@ -277,5 +278,6 @@ export const defaultTheme = createTheme(vars, {
     md: "12px",
     lg: "16px",
     xl: "24px",
+    "2xl": "32px",
   },
 });

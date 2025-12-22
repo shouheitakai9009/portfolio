@@ -14,8 +14,8 @@ export const background = style({
   right: 0,
   height: "100%",
   backgroundColor: vars.background.lighter,
-  borderTopLeftRadius: vars.radius.lg,
-  borderBottomLeftRadius: vars.radius.lg,
+  borderTopLeftRadius: vars.radius["2xl"],
+  borderBottomLeftRadius: vars.radius["2xl"],
   zIndex: 0,
 });
 
