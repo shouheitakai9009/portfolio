@@ -2,6 +2,7 @@ import { shallowEqual } from "react-redux";
 import { useSelector } from "../../states";
 import { wrapper } from "./index.css";
 import { InlineTypography } from "../../designs/InlineTypography";
+import { Tag } from "../../designs/Tag";
 
 export const Header = () => {
   const career = useSelector(
@@ -21,6 +22,9 @@ export const Header = () => {
       <InlineTypography size="xl" color="gray700" bold>
         {career.projectName}
       </InlineTypography>
+      <Tag size="sm" color="orange">
+        個人事業主
+      </Tag>
     </div>
   );
 };

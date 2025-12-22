@@ -1,6 +1,15 @@
 import type { Preview } from '@storybook/react-vite'
+import { defaultTheme } from '../src/designs/theme.css'
+import '../src/index.css'
 
 const preview: Preview = {
+  decorators: [
+    (Story) => (
+      <div className={defaultTheme}>
+        <Story />
+      </div>
+    ),
+  ],
   parameters: {
     controls: {
       matchers: {

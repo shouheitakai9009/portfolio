@@ -60,10 +60,13 @@ src/
 ### コンポーネント配置ルール
 
 1. **designs/**: 再利用可能な汎用 UI コンポーネント
+
    - ドメイン知識を持たない
+   - コンポーネントごとに必ず storybook が存在する
    - 例: Button, Input, Card
 
 2. **widgets/**: ドメイン固有の UI コンポーネント
+
    - アプリケーション固有の知識を持つ
    - 例: Header, Footer, ProfileSection
    - サブコンポーネントは親コンポーネントと同階層に配置
@@ -94,6 +97,7 @@ Motion ライブラリを使用してアニメーションを実装
 ### アイコン
 
 Font Awesome を使用:
+
 - `@fortawesome/react-fontawesome`
 - `@fortawesome/free-solid-svg-icons`
 - `@fortawesome/free-regular-svg-icons`

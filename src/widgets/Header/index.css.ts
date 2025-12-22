@@ -5,6 +5,7 @@ export const wrapper = style({
   height: "40px",
   display: "flex",
   alignItems: "center",
+  gap: vars.spaces.sm,
 });
 
 export const heading = style({});
