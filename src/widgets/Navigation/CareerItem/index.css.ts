@@ -13,7 +13,7 @@ export const background = style({
   top: 0,
   right: 0,
   height: "100%",
-  backgroundColor: vars.background.lightest,
+  backgroundColor: vars.background.lighter,
   borderTopLeftRadius: vars.radius.lg,
   borderBottomLeftRadius: vars.radius.lg,
   zIndex: 0,

@@ -11,8 +11,9 @@ export const wrapper = style({
 export const nav = style({});
 
 export const main = style({
-  background: vars.background.lightest,
+  background: vars.background.lighter,
   borderTopLeftRadius: vars.radius["2xl"],
   borderBottomLeftRadius: vars.radius["2xl"],
   margin: `${vars.spaces.lg} 0`,
+  padding: vars.spaces.xl,
 });

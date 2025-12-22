@@ -29,6 +29,7 @@ export const vars = createThemeContract({
     primary: null,
     default: null,
     lightest: null,
+    lighter: null,
   },
   lineHeight: {
     xs: null,
@@ -75,6 +76,7 @@ export const defaultTheme = createTheme(vars, {
     primary: "hsla(45, 100%, 60%, 1)",
     default: "hsla(0, 0%, 100%, 1)",
     lightest: "hsla(0, 0%, 95%, 1)",
+    lighter: "hsla(0, 0%, 90%, 1)",
   },
   fontSize: {
     xs: "0.75rem",
