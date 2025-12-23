@@ -3,7 +3,7 @@ import { vars } from "../../../designs/theme.css";
 
 export const wrapper = style({
   background: vars.background.default,
-  padding: vars.spaces.md,
+  padding: vars.spaces["2xl"],
   borderRadius: vars.radius.lg,
   gridArea: "summ",
 });

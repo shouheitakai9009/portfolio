@@ -258,11 +258,11 @@ export const defaultTheme = createTheme(vars, {
   },
   lineHeight: {
     xs: "1rem",
-    sm: "1.25rem",
-    md: "1.5rem",
-    lg: "1.75rem",
-    xl: "1.75rem",
-    "2xl": "2rem",
+    sm: "1.5rem",
+    md: "1.7rem",
+    lg: "1.9rem",
+    xl: "2.1rem",
+    "2xl": "2.3rem",
   },
   radius: {
     sm: "4px",
