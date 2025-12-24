@@ -25,3 +25,11 @@ export const careerList = style({
   margin: 0,
   padding: 0,
 });
+
+export const snsIcons = style({
+  display: "flex",
+  gap: vars.spaces.md,
+  justifyContent: "center",
+  alignItems: "center",
+  marginTop: vars.spaces.sm,
+});

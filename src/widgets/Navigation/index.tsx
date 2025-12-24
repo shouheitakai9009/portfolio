@@ -1,9 +1,11 @@
-import { career, careerList, careerTitle, header, wrapper } from "./index.css";
+import { career, careerList, careerTitle, header, snsIcons, wrapper } from "./index.css";
 import avatar from "../../assets/avatar.jpg";
 import { Avatar } from "../../designs/Avatar";
 import { InlineTypography } from "../../designs/InlineTypography";
+import { LinkIcon } from "../../designs/LinkIcon";
 import { useActions, useSelector } from "../../states";
 import { CareerItem } from "./CareerItem";
+import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export const Navigation = () => {
   const careers = useSelector((state) => state.app.careers);
@@ -25,6 +27,24 @@ export const Navigation = () => {
               Frontend developer
             </InlineTypography>
           </p>
+        </div>
+        <div className={snsIcons}>
+          <LinkIcon
+            icon={faXTwitter}
+            href="https://x.com/shouheitakai"
+            color="gray"
+            size="lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+          <LinkIcon
+            icon={faGithub}
+            href="https://github.com/shouheitakai9009"
+            color="gray"
+            size="lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
         </div>
       </section>
       <section className={career}>
